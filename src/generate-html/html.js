@@ -25,7 +25,7 @@ function createCard(employee){
 
   if (employee.getRole() === 'Engineer') {
     replaced = replaced.replace('{{attr_key}}', 'Github')
-      .replace('{{attr_value}}', employee.getGithub())
+      .replace('{{attr_value}}', '<a href="https://github.com/{{attr_value}}" target="_blank" rel="noopener noreferrer">'+employee.getGithub()+'</a>')
   }
   if (employee.getRole() === 'Intern') {
     replaced = replaced.replace('{{attr_key}}', 'School')
