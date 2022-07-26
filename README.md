@@ -17,9 +17,9 @@
 This is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so there are unit tests for every part of the code to ensure that the application is working without errors.
 
 ## Application Demo
-The following video link shows the functionality of the README Generator application:
+The following video link shows the functionality of the Team Profile Generator:
 
-[Team Profile Generator application demo](./demo-video/)
+[Team Profile Generator application demo](./demo-video/Team_Profile_Generator_Demo.mp4)
 
 ## Installation
 'npm init' and 'npm i inquirer@8.2.4' is required
