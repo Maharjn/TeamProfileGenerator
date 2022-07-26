@@ -23,6 +23,7 @@ The following video link shows the functionality of the README Generator applica
 
 ## Installation
 'npm init' and 'npm i inquirer@8.2.4' is required
+'npm i jest' and 'npm i -D @types/jest' is required
 
 ## Usage
 The requirement of the application was to make use of Constructors and Classes to create the employee objects. Among these were the Employee, Manager, Engineer, and Intern classes. In addition to building the application, this project also required the use of Jest and Inquirer to conduct unit tests of every part of the code to ensure that it would pass each test. 
